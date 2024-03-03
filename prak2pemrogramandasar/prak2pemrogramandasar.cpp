@@ -14,7 +14,7 @@ int main() {
 	else {
 		status = "Ganjil";
 	}
-
+	cout << "Status Bilangan " << status << endl;
 
 }
 
