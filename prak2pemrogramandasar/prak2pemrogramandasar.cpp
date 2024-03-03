@@ -4,7 +4,6 @@ using namespace std;
 int main() {
 	srand(time(0));
 
-
 	int nBill = (rand() % 10);
 	string status;
 
@@ -14,8 +13,9 @@ int main() {
 	else {
 		status = "Ganjil";
 	}
+	
+	cout << "Bilangan " << nBill << endl;
 	cout << "Status Bilangan " << status << endl;
-
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
