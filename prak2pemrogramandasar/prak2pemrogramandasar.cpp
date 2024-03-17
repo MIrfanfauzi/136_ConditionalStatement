@@ -14,6 +14,7 @@ int main() {
 		status = "Ganjil";
 	}
 	
+
 	cout << "Bilangan " << nBill << endl;
 	cout << "Status Bilangan " << status << endl;
 }
